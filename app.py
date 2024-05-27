@@ -21,4 +21,4 @@ my_app.layout = html.Div(children= [html.H1(children= 'Hello, Dash!'),
                                               )
                                               ])
 if __name__ == '_main_':
- my_app.run_server(debug = True)
+ my_app.run_server(debug = False)
